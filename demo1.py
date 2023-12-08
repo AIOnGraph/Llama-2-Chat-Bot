@@ -13,7 +13,7 @@ from langchain.prompts import (
 
 # Load environment variables
 # load_dotenv()            
-REPLICATE_API_TOKEN = st.secrets('REPLICATE_API_TOKEN')
+REPLICATE_API_TOKEN = st.secrets['REPLICATE_API_TOKEN']
 
 # Streamlit app
 st.sidebar.title('Models and Parameters')
